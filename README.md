@@ -35,17 +35,17 @@ This lab shows how to install and configure Active Directory using Microsoft Azu
   <ul>
     <li>Our Client VM should be installed normally using the Windows 10 image (OS)</li>
     <ul>
-      <li>Tutorial on how to install VMs and to access them using Remote Desktop can be found <b><a href ="https://github.com/ColtonTrauCC/vm-network">here</a></b></li>
+      <li>Tutorial on how to install VMs and to access them using Remote Desktop can be found <b><a href ="https://github.com/petehnguyen107/azure-network-protocol">here</a></b></li>
     </ul>      
     <li>Our Domain Controller VM using Active Directory should be created using the image <b>Windows Server 2022 Datacenter: Azure Edition - x64 Gen2</b></li>
     <ul>
-      <li><img src = "https://github.com/ColtonTrauCC/active-directory/assets/147654000/2ba43657-9799-46d3-9140-c9952282614e" height="80%" width="80%"/></li>
+      <li><img src = "https://i.imgur.com/MfBXSMn.png" height="80%" width="80%"/></li>
     </ul>
     <li>After the VMs are created, we'll set the Domain Controller's IP Address as <i>static</i> since having it dynamic will make them difficult for the VM to communicate with our client VM.</li>
     <li>Go to your Virtual Machines in Azure and go to <b>Networking</b> then go to the link listed next to <b>Network Interface</b>. Head to <b>IP Configurations</b> under <b>settings</b>, go to the ipconfig link to open up a window to toggle the IP configuration and allocation to <b>Static</b>.</li>
     <ul>
       <li>IP Configuration for the Domain VM</li>
-      <li><img src="https://github.com/ColtonTrauCC/active-directory/assets/147654000/f9883539-f1b2-4ada-80d9-2e0df6c2de6d" height="80%" width="80%"/></li>
+      <li><img src="https://i.imgur.com/1cpkdQ9.png" height="80%" width="80%"/></li>
     </ul>
   </ul>
 </p>
