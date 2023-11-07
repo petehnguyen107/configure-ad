@@ -1,10 +1,10 @@
 # configure-ad
 <p align="center">
-<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
+<img src="https://i.imgur.com/ntqcBtC.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
 <h1 align = "center">Installing and Configuring Active Directory in Microsoft Azure</h1>
-This lab shows how to install and configure Active Directory using Microsoft Azure. We will create two VMs in Azure in the same virtual network. One VM will be the <b>Domain Controller</b> and have the Active Directory installed, and other VM will be used as a <b>client</b>. We will then configure the Active Directory to permit the Client to join the domain as well as creating user accounts using a Powershell script. 
+This lab shows how to install and configure Active Directory using Microsoft Azure. We will create two VMs in Azure in the same virtual network. One VM will be the <b>Domain Controller</b> and have Active Directory installed, and other VM will be used as a <b>client</b>. We will then configure the Active Directory to permit the Client to join the domain as well as creating user accounts using a Powershell script. 
 
 <br />
 
