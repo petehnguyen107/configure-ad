@@ -4,7 +4,7 @@
 </p>
 
 <h1 align = "center">Installing and Configuring Active Directory in Microsoft Azure</h1>
-This lab demonstrates how to install and configure Active Directory using Azure. We will be using two VMs on Azure that are on the same virtual network. One VM will be installed with Active Directory and configured to be the <b>Domain Controller</b> and other VM will be used as a <b>client</b>. Then, we will configure the Active Directory to allow the Client to join the domain as well as creating user accounts using a Powershell script. 
+This lab shows how to install and configure Active Directory using Microsoft Azure. We will create two VMs in Azure in the same virtual network. One VM will be the <b>Domain Controller</b> and have the Active Directory installed, and other VM will be used as a <b>client</b>. We will then configure the Active Directory to permit the Client to join the domain as well as creating user accounts using a Powershell script. 
 
 <br />
 
